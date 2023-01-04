@@ -1,0 +1,107 @@
+*{
+    margin-block: 0px 0px;
+    box-sizing: border-box;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    padding: 0px;
+}
+.header{
+    background-image: url("images/bhaalu.jpg");
+     min-height: 100vh;
+     background-attachment: fixed;
+     
+     background-repeat: no-repeat;
+     background-size:cover ;
+     background-position:50%;
+     padding-top :351px;
+     opacity: 0.8;
+     margin: 0;
+}
+.section{
+    margin: 0px;
+    
+    min-height: 200vh;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+#section1{
+    
+    background-image: url("images/hand.jpg");
+}
+#section2{
+    
+    background-image: url("images/holding.jpg");
+}
+#section3{
+    
+    background-image: url("images/shifting.jpg");
+}
+#section4{
+    position: relative;
+    background-image: url("images/saved.jpg");
+}
+.text {
+   
+    margin: auto;
+    color: rgb(135 36 36);
+    background-color: rgb(0 0 0 / 82%);
+    text-align: center;
+    padding: 62px 0px;
+    border-radius: 4px;
+    font-size: 122px;
+}
+.content{
+    
+    height: 130px;
+    background-color: rgb(17, 16, 17);
+    color: white;
+    margin:0;
+    padding: 0;
+}
+
+#footer{
+    /* position: absolute;
+    bottom: 10px; */
+
+    height: 80px;
+    background-color: rgb(17, 16, 17);
+    color: white;
+    margin:0;
+    padding-top: 15px;
+    text-align: center;
+}
+.header1{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+
+}
+.content p{
+          text-align: center;
+          margin-bottom: 20px;
+}
+.navbar{
+    position:sticky ;
+    top: 0px;
+    left: 0px;
+}
+.sub-container1{
+    background-color: rgb(69, 69, 69);
+}
+li{
+    margin: 60px 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+  
